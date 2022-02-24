@@ -1,20 +1,3 @@
-
-Skip to content
-All gists
-Back to GitHub
-@GabrielAlvesDeOliveira
-@jacksonpires
-jacksonpires/subjects.txt
-Created 3 years ago • Report abuse
-
-0
-
-    0
-
-Code
-Revisions 1
-Assuntos
-subjects.txt
 Acionamentos e controles elétricos
 Administração de Recursos Materiais
 Administração Financeira e Orçamentária
