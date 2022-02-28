@@ -1,0 +1,163 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'yarn' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData yarn
+8 silly fetchNamedPackageData yarn
+9 silly mapToRegistry name yarn
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/yarn
+13 verbose get https://registry.npmjs.org/yarn not expired, no request
+14 silly install normalizeTree
+15 silly loadCurrentTree Finishing
+16 silly loadIdealTree Starting
+17 silly install loadIdealTree
+18 silly cloneCurrentTree Starting
+19 silly install cloneCurrentTreeToIdealTree
+20 silly cloneCurrentTree Finishing
+21 silly loadShrinkwrap Starting
+22 silly install loadShrinkwrap
+23 silly loadShrinkwrap Finishing
+24 silly loadAllDepsIntoIdealTree Starting
+25 silly install loadAllDepsIntoIdealTree
+26 silly resolveWithNewModule yarn@1.22.17 checking installable status
+27 silly cache add args [ 'yarn', null ]
+28 verbose cache add spec yarn
+29 silly cache add parsed spec Result {
+29 silly cache add   raw: 'yarn',
+29 silly cache add   scope: null,
+29 silly cache add   name: 'yarn',
+29 silly cache add   rawSpec: '',
+29 silly cache add   spec: 'latest',
+29 silly cache add   type: 'tag' }
+30 silly addNamed yarn@latest
+31 verbose addNamed "latest" is being treated as a dist-tag for yarn
+32 info addNameTag [ 'yarn', 'latest' ]
+33 silly mapToRegistry name yarn
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/yarn
+37 verbose addNameTag registry:https://registry.npmjs.org/yarn not in flight; fetching
+38 verbose get https://registry.npmjs.org/yarn not expired, no request
+39 silly addNameTag next cb for yarn with tag latest
+40 silly addNamed yarn@1.22.17
+41 verbose addNamed "1.22.17" is a plain semver version for yarn
+42 silly cache afterAdd yarn@1.22.17
+43 verbose afterAdd /home/vagrant/.npm/yarn/1.22.17/package/package.json not in flight; writing
+44 verbose afterAdd /home/vagrant/.npm/yarn/1.22.17/package/package.json written
+45 silly loadAllDepsIntoIdealTree Finishing
+46 silly idealTree:prePrune time_to_answer@1.0.0
+46 silly idealTree:prePrune └── yarn@1.22.17
+47 silly loadIdealTree Finishing
+48 silly currentTree time_to_answer@1.0.0
+49 silly idealTree time_to_answer@1.0.0
+49 silly idealTree └── yarn@1.22.17
+50 silly generateActionsToTake Starting
+51 silly install generateActionsToTake
+52 silly generateActionsToTake Finishing
+53 silly diffTrees action count 1
+54 silly diffTrees add yarn@1.22.17
+55 silly decomposeActions action count 8
+56 silly decomposeActions fetch yarn@1.22.17
+57 silly decomposeActions extract yarn@1.22.17
+58 silly decomposeActions test yarn@1.22.17
+59 silly decomposeActions preinstall yarn@1.22.17
+60 silly decomposeActions build yarn@1.22.17
+61 silly decomposeActions install yarn@1.22.17
+62 silly decomposeActions postinstall yarn@1.22.17
+63 silly decomposeActions finalize yarn@1.22.17
+64 silly executeActions Starting
+65 silly install executeActions
+66 silly doSerial global-install 0
+67 silly doParallel fetch 1
+68 verbose makeDirectory /home/vagrant/.npm/_locks creation not in flight; initializing
+69 silly makeDirectory /home/vagrant/.npm/_locks uid: 1000 gid: 1000
+70 verbose lock using /home/vagrant/.npm/_locks/staging-c2e283644e24b0dd.lock for /vagrant/time_to_answer/node_modules/.staging
+71 silly doParallel extract 1
+72 silly extract yarn@1.22.17
+73 verbose unbuild node_modules/.staging/yarn-cb20168a
+74 silly gentlyRm /vagrant/time_to_answer/node_modules/.staging/yarn-cb20168a is being purged from base /vagrant/time_to_answer
+75 verbose gentlyRm don't care about contents; nuking /vagrant/time_to_answer/node_modules/.staging/yarn-cb20168a
+76 verbose tar unpack /home/vagrant/.npm/yarn/1.22.17/package.tgz
+77 verbose tar unpacking to /vagrant/time_to_answer/node_modules/.staging/yarn-cb20168a
+78 silly gentlyRm /vagrant/time_to_answer/node_modules/.staging/yarn-cb20168a is being purged
+79 verbose gentlyRm don't care about contents; nuking /vagrant/time_to_answer/node_modules/.staging/yarn-cb20168a
+80 silly gunzTarPerm modes [ '775', '664' ]
+81 silly gunzTarPerm extractEntry LICENSE
+82 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+83 silly gunzTarPerm extractEntry README.md
+84 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+85 silly gunzTarPerm extractEntry bin/
+86 silly gunzTarPerm modified mode [ 'bin/', 493, 509 ]
+87 silly gunzTarPerm extractEntry bin/yarn.js
+88 silly gunzTarPerm modified mode [ 'bin/yarn.js', 493, 509 ]
+89 silly gunzTarPerm extractEntry bin/yarn
+90 silly gunzTarPerm modified mode [ 'bin/yarn', 493, 509 ]
+91 silly gunzTarPerm extractEntry bin/yarnpkg
+92 silly gunzTarPerm modified mode [ 'bin/yarnpkg', 493, 509 ]
+93 silly gunzTarPerm extractEntry bin/yarn.cmd
+94 silly gunzTarPerm modified mode [ 'bin/yarn.cmd', 493, 509 ]
+95 silly gunzTarPerm extractEntry bin/yarnpkg.cmd
+96 silly gunzTarPerm modified mode [ 'bin/yarnpkg.cmd', 493, 509 ]
+97 silly gunzTarPerm extractEntry lib/
+98 silly gunzTarPerm modified mode [ 'lib/', 493, 509 ]
+99 silly gunzTarPerm extractEntry lib/cli.js
+100 silly gunzTarPerm modified mode [ 'lib/cli.js', 493, 509 ]
+101 silly gunzTarPerm extractEntry lib/v8-compile-cache.js
+102 silly gunzTarPerm modified mode [ 'lib/v8-compile-cache.js', 420, 436 ]
+103 silly gunzTarPerm extractEntry package.json
+104 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+105 silly gunzTarPerm extractEntry preinstall.js
+106 silly gunzTarPerm modified mode [ 'preinstall.js', 420, 436 ]
+107 silly gentlyRm /vagrant/time_to_answer/node_modules/.staging/yarn-cb20168a/node_modules is being purged
+108 verbose gentlyRm don't care about contents; nuking /vagrant/time_to_answer/node_modules/.staging/yarn-cb20168a/node_modules
+109 silly doParallel preinstall 1
+110 silly preinstall yarn@1.22.17 /vagrant/time_to_answer/node_modules/.staging/yarn-cb20168a
+111 info lifecycle yarn@1.22.17~preinstall: yarn@1.22.17
+112 verbose lifecycle yarn@1.22.17~preinstall: unsafe-perm in lifecycle true
+113 verbose lifecycle yarn@1.22.17~preinstall: PATH: /usr/share/npm/bin/node-gyp-bin:/vagrant/time_to_answer/node_modules/.staging/yarn-cb20168a/node_modules/.bin:/vagrant/time_to_answer/node_modules/.bin:/home/vagrant/.rvm/gems/ruby-2.4.5/bin:/home/vagrant/.rvm/gems/ruby-2.4.5@global/bin:/home/vagrant/.rvm/rubies/ruby-2.4.5/bin:/home/vagrant/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+114 verbose lifecycle yarn@1.22.17~preinstall: CWD: /vagrant/time_to_answer/node_modules/.staging/yarn-cb20168a
+115 silly lifecycle yarn@1.22.17~preinstall: Args: [ '-c', ':; (node ./preinstall.js > /dev/null 2>&1 || true)' ]
+116 silly lifecycle yarn@1.22.17~preinstall: Returned: code: 0  signal: null
+117 silly doReverseSerial remove 0
+118 silly doSerial move 0
+119 silly doSerial finalize 1
+120 silly finalize /vagrant/time_to_answer/node_modules/yarn
+121 silly doSerial build 1
+122 silly build yarn@1.22.17
+123 info linkStuff yarn@1.22.17
+124 silly linkStuff yarn@1.22.17 has /vagrant/time_to_answer/node_modules as its parent node_modules
+125 warn prefer global yarn@1.22.17 should be installed with -g
+126 verbose linkBins yarn@1.22.17
+127 verbose link bins [ { yarn: './bin/yarn.js', yarnpkg: './bin/yarn.js' },
+127 verbose link bins   '/vagrant/time_to_answer/node_modules/.bin',
+127 verbose link bins   false ]
+128 verbose linkMans yarn@1.22.17
+129 silly gentlyRm /vagrant/time_to_answer/node_modules/.bin/yarn is being purged
+130 verbose gentlyRm don't care about contents; nuking /vagrant/time_to_answer/node_modules/.bin/yarn
+131 silly gentlyRm /vagrant/time_to_answer/node_modules/.bin/yarnpkg is being purged
+132 verbose gentlyRm don't care about contents; nuking /vagrant/time_to_answer/node_modules/.bin/yarnpkg
+133 verbose unlock done using /home/vagrant/.npm/_locks/staging-c2e283644e24b0dd.lock for /vagrant/time_to_answer/node_modules/.staging
+134 silly rollbackFailedOptional Starting
+135 silly rollbackFailedOptional Finishing
+136 silly runTopLevelLifecycles Starting
+137 silly runTopLevelLifecycles Finishing
+138 silly install printInstalled
+139 verbose stack Error: EPROTO: protocol error, symlink '../yarn/bin/yarn.js' -> '/vagrant/time_to_answer/node_modules/.bin/yarn'
+140 verbose cwd /vagrant/time_to_answer
+141 error Linux 4.15.0-169-generic
+142 error argv "/usr/bin/node" "/usr/bin/npm" "install" "yarn"
+143 error node v8.10.0
+144 error npm  v3.5.2
+145 error path ../yarn/bin/yarn.js
+146 error code EPROTO
+147 error errno -71
+148 error syscall symlink
+149 error EPROTO: protocol error, symlink '../yarn/bin/yarn.js' -> '/vagrant/time_to_answer/node_modules/.bin/yarn'
+150 error If you need help, you may report this error at:
+150 error     <https://github.com/npm/npm/issues>
+151 verbose exit [ -71, true ]

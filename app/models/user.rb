@@ -5,6 +5,9 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
 
+  #validations
+  validates :first_name, presence: true, length: { minimum: 3}, on: update
+
   def full_name
     [self.first_name,self.last_name].join(' ')
   end

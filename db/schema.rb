@@ -45,7 +45,6 @@ ActiveRecord::Schema.define(version: 2022_02_25_183038) do
     t.string "description", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "questions_counter"
     t.integer "questions_count"
   end
 
