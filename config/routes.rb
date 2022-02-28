@@ -18,7 +18,9 @@ Rails.application.routes.draw do
   end
   devise_for :admins, skip: [:registrations]
   devise_for :users
+  
   get 'inicio', to: 'site/welcome#index'
+  get 'backoffice', to: 'admins_backoffice/welcome#index'
 
   root to: 'site/welcome#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
