@@ -11,4 +11,8 @@ class ApplicationController < ActionController::Base
         params.extract!(:page)
       end
     end
+
+    def set_global_params
+      $global_params = params
+    end
 end
